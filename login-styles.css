@@ -1,0 +1,81 @@
+:root {
+    background: linear-gradient(330deg, rgb(36, 23, 49)50%,rgb(81, 53, 92));
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    /* Display */
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    /* Dimensions */
+    min-width:40vh;
+    min-height:50vh;
+    max-width:50vh;
+    /* Styling */
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 0px 3px silver;
+
+}
+.card h1 {
+    font-size:35px;
+    font-weight: bold;
+}
+.card p {
+    justify-self: end;
+}
+.card button {
+    background: rgb(227, 172, 249);
+    border-radius: 1em;
+    border: none;
+    padding:5px 10px 5px 10px;
+    font-size:20px;
+    transition: 1s;
+}
+.card button:hover {
+    cursor:pointer;
+    transition: 0.5s;
+    background: rgb(198, 116, 231);
+    border-radius: 1em;
+    border: none;
+    padding:5px 10px 5px 10px;
+    font-size:20px;
+}
+.login{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 11vh;
+}
+.login input[type=text]{
+    border:none;
+    border-radius: 1em;
+    background-color: rgb(223, 207, 230);
+    padding-left:25px;
+    font-size: 15px;
+    height:35px;
+}
+.login input[type=password]{
+    border:none;
+    border-radius: 1em;
+    background-color: rgb(223, 207, 230);
+    padding-left:25px;
+    font-size: 15px;
+    height:35px;
+}
