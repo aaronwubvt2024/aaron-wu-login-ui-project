@@ -1,5 +1,5 @@
 :root {
-    background: linear-gradient(330deg, rgb(36, 23, 49)50%,rgb(81, 53, 92));
+    background: radial-gradient( rgb(81, 53, 92),rgb(36, 23, 49)90%);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -26,11 +26,10 @@
     min-height:50vh;
     max-width:50vh;
     /* Styling */
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color:black;
     border-radius: 20px;
     box-shadow: 5px 5px 0px 3px silver;
-
 }
 .card h1 {
     font-size:35px;
